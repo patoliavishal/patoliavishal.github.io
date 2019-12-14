@@ -29,7 +29,7 @@
 anime.timeline({loop: true})
   .add({
     targets: '.ml15 .word',
-    scale: [14,1],
+    scale: [10,1],
     opacity: [0,1],
     easing: "easeOutCirc",
     duration: 800,
@@ -41,5 +41,5 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
-  
+  s
 })(jQuery); // End of use strict

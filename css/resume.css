@@ -34,6 +34,26 @@ h1 {
   line-height: 5.5rem;
 }
 
+.btn-xl:focus {outline:0 !important;}
+
+.btn-xl:hover {
+  background-color: #394494;
+  color: white !important;
+  border: none;
+}
+	 
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 60px;
+  color: white !important;
+  width: 200px !important;
+  background-color: #283593;
+  border-radius: 10rem;
+}
+
 h2 {
   font-size: 3.5rem;
 }
